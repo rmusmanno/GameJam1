@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CD885A15-BD49-4112-8529-A6CE633191BF}" SchemaVersion="80">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{CD885A15-BD49-4112-8529-A6CE633191BF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CD885A15-BD49-4112-8529-A6CE633191BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainScreen" ID="{72A2654C-D78A-4BE8-9FE7-A00053D0F301}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainScreen" ID="{1540EC4A-7DB7-40F3-B06C-C4267CC016DB}" WorkUnitID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="QuitButton" ID="{13A0ED62-4A9D-4101-A467-08507A1A4735}" WorkUnitID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayButton" ID="{80170348-E3E2-4749-BA7D-568BCF1245AC}" WorkUnitID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

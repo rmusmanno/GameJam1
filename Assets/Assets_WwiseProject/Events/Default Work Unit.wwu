@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" SchemaVersion="80">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MainScreen" ID="{1540EC4A-7DB7-40F3-B06C-C4267CC016DB}">
+					<ChildrenList>
+						<Action Name="" ID="{D1F82910-1F95-40B4-AFEE-96034B7677C2}" ShortID="557909329">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{08513261-5D38-4D55-8890-0473EB9EB8BD}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayButton" ID="{80170348-E3E2-4749-BA7D-568BCF1245AC}">
+					<ChildrenList>
+						<Action Name="" ID="{9EE2FABC-E800-424A-B395-483EE8B1ACE2}" ShortID="238041453">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game botao" ID="{E6C69F83-8860-425D-A604-E279BE7C5D3D}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="QuitButton" ID="{13A0ED62-4A9D-4101-A467-08507A1A4735}">
+					<ChildrenList>
+						<Action Name="" ID="{C72E681C-1742-4D38-B80C-D891861BB40D}" ShortID="704903141">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game QuitButton" ID="{4EC9A9D9-ED8A-4DF3-84A6-57721DCE792A}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3658393046" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainScreen</ObjectPath>
+			<ShortName>MainScreen</ShortName>
+			<Path>MainScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3658393046" Name="MainScreen" ObjectPath="\Events\Default Work Unit\MainScreen"/>
+				<Event Id="1843531235" Name="PlayButton" ObjectPath="\Events\Default Work Unit\PlayButton"/>
+				<Event Id="2559930772" Name="QuitButton" ObjectPath="\Events\Default Work Unit\QuitButton"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="297132750" Language="SFX">
+					<ShortName>Game botao.wav</ShortName>
+					<Path>SFX\Game botao_1C9C67B2.wem</Path>
+				</File>
+				<File Id="472713270" Language="SFX">
+					<ShortName>Game.wav</ShortName>
+					<Path>SFX\Game_1C9C67B2.wem</Path>
+				</File>
+				<File Id="880439410" Language="SFX">
+					<ShortName>Game QuitButton.wav</ShortName>
+					<Path>SFX\Game QuitButton_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1843531235	PlayButton			\Default Work Unit\PlayButton	
+	2559930772	QuitButton			\Default Work Unit\QuitButton	
+	3658393046	MainScreen			\Default Work Unit\MainScreen	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	297132750	Game botao	C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Windows\SFX\Game botao_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game botao		1152064
+	472713270	Game	C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Windows\SFX\Game_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game		5760064
+	880439410	Game QuitButton	C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Windows\SFX\Game QuitButton_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game QuitButton		1152064
+

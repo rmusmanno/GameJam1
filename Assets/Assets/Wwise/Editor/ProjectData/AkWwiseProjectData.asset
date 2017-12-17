@@ -12,14 +12,100 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-  RtpcWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{048DD60A-04E2-4F5F-A4AA-BCE02E666310}'
+    m_lastTimePsrt1: -1868711931
+    m_lastTimePart2: -1999288998
+    List:
+    - Name: MainScreen
+      Path: Default Work Unit\MainScreen
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainScreen
+        ObjectType: 3
+      ID: -636574250
+      Guid: 4aec4015b77df340b06cc4267cc016db
+      maxAttenuation: 0
+    - Name: PlayButton
+      Path: Default Work Unit\PlayButton
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayButton
+        ObjectType: 3
+      ID: 1843531235
+      Guid: 48031780e2e34947ba7d568bcf1245ac
+      maxAttenuation: 0
+    - Name: QuitButton
+      Path: Default Work Unit\QuitButton
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: QuitButton
+        ObjectType: 3
+      ID: -1735036524
+      Guid: 62eda0139d4a0141a46708507a1a4735
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E48EC5CC-0012-4E24-A10F-5399C1414E1C}'
+    m_lastTimePsrt1: 44089248
+    m_lastTimePart2: -1999289014
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{82F99186-D6D9-4B0D-B477-246921AA7398}'
+    m_lastTimePsrt1: 44429511
+    m_lastTimePart2: -1999289014
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{138AEFF4-E9B1-48B0-8BB4-B3D2EA3DACA6}'
+    m_lastTimePsrt1: 44399464
+    m_lastTimePart2: -1999289014
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{CD885A15-BD49-4112-8529-A6CE633191BF}'
+    m_lastTimePsrt1: -553541954
+    m_lastTimePart2: -1999288998
+    List:
+    - Name: MainScreen
+      Path: Default Work Unit\MainScreen
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainScreen
+        ObjectType: 7
+      ID: -636574250
+      Guid: 4c65a2728ad7e84b9fe7a00053d0f301
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E5D17C30-BE36-4303-A897-31F6048B45AA}'
+    m_lastTimePsrt1: 43979170
+    m_lastTimePart2: -1999289014
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{29F65C33-5C92-4DC4-842F-CA81087B996F}'
+    m_lastTimePsrt1: 44039213
+    m_lastTimePart2: -1999289014
+    List: []
+  ExpandedItems:
+  - /Assets_WwiseProject
+  - /Assets_WwiseProject/Events
+  - /Assets_WwiseProject/Events/Default Work Unit
+  - /Assets_WwiseProject/SoundBanks
+  - /Assets_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

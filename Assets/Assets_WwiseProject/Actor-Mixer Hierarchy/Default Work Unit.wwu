@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" SchemaVersion="80">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Game" ID="{08513261-5D38-4D55-8890-0473EB9EB8BD}" ShortID="488024370">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game" ID="{ED4C56D0-92F4-4B40-B363-2594BF7B0C9C}" ShortID="472713270">
+							<Language>SFX</Language>
+							<AudioFile>Game.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Game" ID="{ED4C56D0-92F4-4B40-B363-2594BF7B0C9C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game botao" ID="{E6C69F83-8860-425D-A604-E279BE7C5D3D}" ShortID="797738089">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game botao" ID="{49013EDB-2841-41DD-9F8E-8AE6A4BDA8F7}" ShortID="297132750">
+							<Language>SFX</Language>
+							<AudioFile>Game botao.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="Game QuitButton" ID="{E22BAD60-8A44-475B-854E-55B2C9BB0A31}" ShortID="880439410">
+							<Language>SFX</Language>
+							<AudioFile>Game QuitButton.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Game botao" ID="{49013EDB-2841-41DD-9F8E-8AE6A4BDA8F7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game QuitButton" ID="{4EC9A9D9-ED8A-4DF3-84A6-57721DCE792A}" ShortID="127076319">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game QuitButton" ID="{007CC21B-DD07-4A27-B0C9-A9E147023A74}" ShortID="573631681">
+							<Language>SFX</Language>
+							<AudioFile>Game QuitButton.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="880439410"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Game QuitButton" ID="{007CC21B-DD07-4A27-B0C9-A9E147023A74}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
