@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{82F99186-D6D9-4B0D-B477-246921AA7398}" SchemaVersion="80">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{82F99186-D6D9-4B0D-B477-246921AA7398}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{82F99186-D6D9-4B0D-B477-246921AA7398}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_1" ID="{513580A3-AC8F-4BCF-9F25-B378CACCF0B8}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D36F8A63-5AC3-4693-B2EF-708D881E4E08}"/>
+						<State Name="g0" ID="{48B4985A-C5EA-4A96-88C3-7F0D4D21737B}"/>
+						<State Name="g1" ID="{B6A1D796-C490-4C15-B86F-763D65AF85E6}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="g0" ID="{48B4985A-C5EA-4A96-88C3-7F0D4D21737B}"/>
+							<EndState Name="g1" ID="{B6A1D796-C490-4C15-B86F-763D65AF85E6}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

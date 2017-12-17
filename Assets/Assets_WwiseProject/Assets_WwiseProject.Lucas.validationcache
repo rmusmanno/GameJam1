@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="584489376" DateHigh="30635830"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1385974225" DateHigh="30635889"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Assets_WwiseProject.Lucas.wsettings" DateLow="1362570703" DateHigh="30635842"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Assets_WwiseProject.wproj" DateLow="3760190927" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3760451090" DateHigh="30635826"/>
@@ -11,19 +11,19 @@
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3760611208" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3760641221" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Effects\Factory Effects.wwu" DateLow="3760672281" DateHigh="30635826"/>
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Events\Default Work Unit.wwu" DateLow="3504922331" DateHigh="30635832"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Events\Default Work Unit.wwu" DateLow="2490528940" DateHigh="30635890"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3760722338" DateHigh="30635826"/>
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3760752368" DateHigh="30635826"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="149672970" DateHigh="30635866"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3760832416" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3760802395" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3760220927" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3760852456" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3760882452" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Queries\Factory Queries.wwu" DateLow="3760942507" DateHigh="30635826"/>
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3504872291" DateHigh="30635832"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="43792162" DateHigh="30635890"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3761122639" DateHigh="30635826"/>
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\States\Default Work Unit.wwu" DateLow="3761172679" DateHigh="30635826"/>
-	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3761142632" DateHigh="30635826"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\States\Default Work Unit.wwu" DateLow="3142506339" DateHigh="30635890"/>
+	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Switches\Default Work Unit.wwu" DateLow="433066187" DateHigh="30635861"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3760782381" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3761192689" DateHigh="30635826"/>
 	<ValidationCacheItem File="C:\Users\Lucas\Desktop\Nature Ninja\Assets_WwiseIntegrationTemp\Assets_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3115869043" DateHigh="30635826"/>

@@ -5,13 +5,13 @@
 			<ChildrenList>
 				<Event Name="MainScreen" ID="{1540EC4A-7DB7-40F3-B06C-C4267CC016DB}">
 					<ChildrenList>
-						<Action Name="" ID="{D1F82910-1F95-40B4-AFEE-96034B7677C2}" ShortID="557909329">
+						<Action Name="" ID="{F533F28D-855B-44FF-8A81-74570F997D40}" ShortID="637464314">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Game" ID="{08513261-5D38-4D55-8890-0473EB9EB8BD}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+									<ObjectRef Name="Game" ID="{0C8380E2-D659-428F-9920-6396CB5494EF}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -40,6 +40,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Game QuitButton" ID="{4EC9A9D9-ED8A-4DF3-84A6-57721DCE792A}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_1" ID="{481C9DA0-A801-4EAD-B28C-62B3CF2B97FF}">
+					<ChildrenList>
+						<Action Name="" ID="{24556A59-23DD-4F5F-9D73-4C8CFB83D66E}" ShortID="801229195">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_1" ID="{583E5701-9EC3-41D6-AA11-499115A6E589}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0C4D4BE8-CDC5-48D0-89CF-303160F5FA27}" ShortID="580676282">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="g1" ID="{1E513847-D1E8-46FE-B7B5-C6EEF949749D}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

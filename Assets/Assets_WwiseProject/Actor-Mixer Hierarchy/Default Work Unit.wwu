@@ -3,25 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Game" ID="{08513261-5D38-4D55-8890-0473EB9EB8BD}" ShortID="488024370">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Game" ID="{ED4C56D0-92F4-4B40-B363-2594BF7B0C9C}" ShortID="472713270">
-							<Language>SFX</Language>
-							<AudioFile>Game.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Game" ID="{ED4C56D0-92F4-4B40-B363-2594BF7B0C9C}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Game botao" ID="{E6C69F83-8860-425D-A604-E279BE7C5D3D}" ShortID="797738089">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -65,6 +46,97 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Game QuitButton" ID="{007CC21B-DD07-4A27-B0C9-A9E147023A74}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game" ID="{0C8380E2-D659-428F-9920-6396CB5494EF}" ShortID="438492338">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game" ID="{5981944A-56E1-4DCD-B362-EA35E0F80E5B}" ShortID="1043082762">
+							<Language>SFX</Language>
+							<AudioFile>Game.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Game" ID="{5981944A-56E1-4DCD-B362-EA35E0F80E5B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game_1" ID="{583E5701-9EC3-41D6-AA11-499115A6E589}" ShortID="940739458">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game_1" ID="{8BAA82EB-2A15-42E2-B434-0F41C8C6EBB1}" ShortID="126720343">
+							<Language>SFX</Language>
+							<AudioFile>Game_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Game_1" ID="{513580A3-AC8F-4BCF-9F25-B378CACCF0B8}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList/>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Game_1" ID="{8BAA82EB-2A15-42E2-B434-0F41C8C6EBB1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="g1" ID="{1E513847-D1E8-46FE-B7B5-C6EEF949749D}" ShortID="274547116">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5E95577A-4AEB-433B-A84F-214FBF557ED4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E48EC5CC-0012-4E24-A10F-5399C1414E1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="g1" ID="{273150C8-FA77-4DDF-A1EE-D75A1E6AA4AA}" ShortID="810162505">
+							<Language>SFX</Language>
+							<AudioFile>g1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Game_1" ID="{513580A3-AC8F-4BCF-9F25-B378CACCF0B8}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="g0" ID="{48B4985A-C5EA-4A96-88C3-7F0D4D21737B}"/>
+								<State Name="Custom State" ID="{61444CC6-776E-46EC-AA7E-EF440BC92FFD}" ShortID="86370906">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="g1" ID="{273150C8-FA77-4DDF-A1EE-D75A1E6AA4AA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

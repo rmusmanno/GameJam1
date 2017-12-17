@@ -12,6 +12,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Game_1" ID="{D47DEBE1-5342-4CFB-AA2A-380DA3926B06}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game_1" ID="{583E5701-9EC3-41D6-AA11-499115A6E589}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="g1" ID="{1E513847-D1E8-46FE-B7B5-C6EEF949749D}" WorkUnitID="{DE0FD500-458B-45BF-A34E-BF20954C65F6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game_1" ID="{481C9DA0-A801-4EAD-B28C-62B3CF2B97FF}" WorkUnitID="{048DD60A-04E2-4F5F-A4AA-BCE02E666310}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

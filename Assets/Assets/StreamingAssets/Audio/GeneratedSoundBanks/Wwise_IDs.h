@@ -13,14 +13,44 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GAME_1 = 618936111U;
         static const AkUniqueID MAINSCREEN = 3658393046U;
         static const AkUniqueID PLAYBUTTON = 1843531235U;
         static const AkUniqueID QUITBUTTON = 2559930772U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace GAME_1
+        {
+            static const AkUniqueID GROUP = 618936111U;
+
+            namespace STATE
+            {
+                static const AkUniqueID G0 = 1786192856U;
+                static const AkUniqueID G1 = 1786192857U;
+            } // namespace STATE
+        } // namespace GAME_1
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace ENGINESPEEDFORCE
+        {
+            static const AkUniqueID GROUP = 2568883701U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace ENGINESPEEDFORCE
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID GAME_1 = 618936111U;
         static const AkUniqueID MAINSCREEN = 3658393046U;
     } // namespace BANKS
 

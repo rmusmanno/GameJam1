@@ -11,6 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="618936111" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_1</ObjectPath>
+			<ShortName>Game_1</ShortName>
+			<Path>Game_1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="618936111" Name="Game_1" ObjectPath="\Events\Default Work Unit\Game_1"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="126720343" Language="SFX">
+					<ShortName>Game_1.wav</ShortName>
+					<Path>SFX\Game_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="810162505" Language="SFX">
+					<ShortName>g1.wav</ShortName>
+					<Path>SFX\g1_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -30,13 +48,13 @@
 					<ShortName>Game botao.wav</ShortName>
 					<Path>SFX\Game botao_1C9C67B2.wem</Path>
 				</File>
-				<File Id="472713270" Language="SFX">
-					<ShortName>Game.wav</ShortName>
-					<Path>SFX\Game_1C9C67B2.wem</Path>
-				</File>
 				<File Id="880439410" Language="SFX">
 					<ShortName>Game QuitButton.wav</ShortName>
 					<Path>SFX\Game QuitButton_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1043082762" Language="SFX">
+					<ShortName>Game.wav</ShortName>
+					<Path>SFX\Game_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

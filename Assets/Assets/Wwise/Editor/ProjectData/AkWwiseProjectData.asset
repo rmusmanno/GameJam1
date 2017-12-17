@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{048DD60A-04E2-4F5F-A4AA-BCE02E666310}'
-    m_lastTimePsrt1: -1868711931
-    m_lastTimePart2: -1999288998
+    m_lastTimePsrt1: -1226214228
+    m_lastTimePart2: -1999288951
     List:
+    - Name: Game_1
+      Path: Default Work Unit\Game_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_1
+        ObjectType: 3
+      ID: 618936111
+      Guid: a09d1c4801a8ad4eb28c62b3cf2b97ff
+      maxAttenuation: 0
     - Name: MainScreen
       Path: Default Work Unit\MainScreen
       PathAndIcons:
@@ -60,23 +70,70 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{82F99186-D6D9-4B0D-B477-246921AA7398}'
-    m_lastTimePsrt1: 44429511
-    m_lastTimePart2: -1999289014
-    List: []
+    m_lastTimePsrt1: -574236829
+    m_lastTimePart2: -1999288951
+    List:
+    - Name: Game_1
+      Path: Default Work Unit\Game_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_1
+        ObjectType: 9
+      ID: 618936111
+      Guid: a38035518faccf4b9f25b378caccf0b8
+      values:
+      - g0
+      - g1
+      - None
+      ValueIcons:
+      - ElementName: g0
+        ObjectType: 8
+      - ElementName: g1
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: d823776ad923776adb3ba32c
+      ValueGuids:
+      - bytes: 5a98b448eac5964a88c37f0d4d21737b
+      - bytes: 96d7a1b690c4154cb86f763d65af85e6
+      - bytes: 638a6fd3c35a9346b2ef708d881e4e08
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{138AEFF4-E9B1-48B0-8BB4-B3D2EA3DACA6}'
-    m_lastTimePsrt1: 44399464
-    m_lastTimePart2: -1999289014
-    List: []
+    m_lastTimePsrt1: 1011290315
+    m_lastTimePart2: -1999288980
+    List:
+    - Name: EngineSpeedForce
+      Path: Default Work Unit\EngineSpeedForce
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EngineSpeedForce
+        ObjectType: 11
+      ID: -1726083595
+      Guid: 972c9592a33d0d44ae3addd331266663
+      values: []
+      ValueIcons: []
+      valueIDs: 
+      ValueGuids: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{CD885A15-BD49-4112-8529-A6CE633191BF}'
-    m_lastTimePsrt1: -553541954
-    m_lastTimePart2: -1999288998
+    m_lastTimePsrt1: 622016290
+    m_lastTimePart2: -1999288951
     List:
+    - Name: Game_1
+      Path: Default Work Unit\Game_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_1
+        ObjectType: 7
+      ID: 618936111
+      Guid: e1eb7dd44253fb4caa2a380da3926b06
     - Name: MainScreen
       Path: Default Work Unit\MainScreen
       PathAndIcons:
@@ -102,10 +159,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Assets_WwiseProject
-  - /Assets_WwiseProject/Events
-  - /Assets_WwiseProject/Events/Default Work Unit
-  - /Assets_WwiseProject/SoundBanks
-  - /Assets_WwiseProject/SoundBanks/Default Work Unit
+  - /Assets_WwiseProject/States
+  - /Assets_WwiseProject/States/Default Work Unit
+  - /Assets_WwiseProject/States/Default Work Unit/Game_1
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	618936111	Game_1			\Default Work Unit\Game_1	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	618936111	Game_1			\Default Work Unit\Game_1	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_1			
+	1786192856	g0	Game_1			
+	1786192857	g1	Game_1			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	86370906	g0	Game_1	\Actor-Mixer Hierarchy\Default Work Unit\g1		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	126720343	Game_1	C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Mac\SFX\Game_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_1		354528
+	810162505	g1	C:\Users\Lucas\Desktop\Nature Ninja\Assets\Assets_WwiseProject\.cache\Mac\SFX\g1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\g1		354528
+
